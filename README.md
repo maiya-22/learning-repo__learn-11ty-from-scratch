@@ -21,6 +21,10 @@ Libraries to load:
 
 - [ ] fontawesome
 
+CMS:
+
+- [ ] Netlify CMS or gitHub CMS (?)
+
 Deploy:
 
 - [ ] deploy to Netlify
