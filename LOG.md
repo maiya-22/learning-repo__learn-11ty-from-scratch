@@ -20,6 +20,9 @@ As the course repo states, this is a retired course, so stumbling blocks and tec
 
   - At the end of the lesson, you run `npx eleventy --serve`
   - You are supposed to see this output in the browser:
-    - ![lesson 2 goal]()
+
+    ![lesson 2 goal](https://raw.githubusercontent.com/maiya-22/learning-repo__learn-11ty-from-scratch/Lesson-02/gitHub-Images/lesson-02-goal.jpg)
+
   - Instead, you see this:
-    - ![lesson 2 actual]()
+
+    ![lesson 2 actual](https://raw.githubusercontent.com/maiya-22/learning-repo__learn-11ty-from-scratch/Lesson-02/gitHub-Images/lesson-02-actual.png)
