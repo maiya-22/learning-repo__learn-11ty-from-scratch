@@ -1,6 +1,6 @@
 ## Learning 11ty From Scratch
 
-- The goal of this repo is to go through [Andy Bell's](https://andy-bell.co.uk/links/) open source project [Learn 11ty from Scratch](https://learneleventyfromscratch.com/) and add my learning process (and hopefully any help that I can get along the way) to the tutorial's [open source rep](https://github.com/Andy-set-studio/learneleventyfromscratch.com).
+- The goal of this repo is to go through [Andy Bell's](https://andy-bell.co.uk/links/) open source project [Learn 11ty from Scratch](https://learneleventyfromscratch.com/) and add my learning process (and hopefully any help that I can get along the way) to the tutorial's [open source repo](https://github.com/Andy-set-studio/learneleventyfromscratch.com).
 - I haven't found any tutorials that are up to date, so hopefully this process will help other learners too.
 
 ## Next Steps
