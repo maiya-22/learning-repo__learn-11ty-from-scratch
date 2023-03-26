@@ -15,7 +15,7 @@ As the course repo states, this is a retired course, so stumbling blocks and tec
 
 ## [Lesson 2](https://learneleventyfromscratch.com/lesson/1.html#what-is-eleventy)
 
-- ⚠️ ERROR: Cannot GET / @ commit [f92fc90ccfb](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/b2659d81bda1677810c7e5cf9e0f8f92fc90ccfb)
+- ⚠️ ERROR: Cannot GET /
 
    <details>
     <summary>Problem </summary>
@@ -43,3 +43,30 @@ As the course repo states, this is a retired course, so stumbling blocks and tec
     </details>
 
 - Final code for Lesson 2: [repo branch "lesson-02"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-02)
+
+## [Lesson 3](https://learneleventyfromscratch.com/lesson/3.html#what-is-nunjucks)
+
+- key point:
+
+   <details>
+                <summary> 
+                  config for making it so that you can use html files
+                </summary>
+
+  `"With the code we’ve just added, we’re > telling Eleventy that markdown files, data files and HTML files should be processed by Nunjucks. That means that we can now use .html files instead of having to use .njk files."`
+
+            module.exports = config => {
+              return {
+                dir: {
+                  markdownTemplateEngine: 'njk',
+                  dataTemplateEngine: 'njk',
+                  htmlTemplateEngine: 'njk',
+                  dir: {
+                    input: 'src',
+                    output: 'dist'
+                  }
+                }
+              };
+            };
+
+        </details>
