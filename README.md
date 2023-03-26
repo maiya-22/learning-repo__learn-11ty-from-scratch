@@ -8,6 +8,10 @@
 1. Complete the tutorial and document stumbling blocks.
 2. The finished project from the tutorial will be used as a starting point for completing an 11ty boilerplate for web projects. (Repo to be linked here).
 
+## Dev & Deploy instructions
+
+- To run on localhost: `npm run start`
+
 ## BACKLOG of FEATURES for FINAL BOILERPLATE
 
 File-types to link properly:
