@@ -97,7 +97,7 @@ Deploy:
 
     </details>
 
-- Final code for Lesson 2: [repo branch "lesson-02"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-02)
+  - Final code for Lesson 2: [repo branch "lesson-02"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-02)
 
 ## [Lesson 3](https://learneleventyfromscratch.com/lesson/3.html#what-is-nunjucks)
 
