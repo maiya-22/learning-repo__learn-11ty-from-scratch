@@ -62,7 +62,7 @@ Deploy:
 
 ## [Lesson: About Your Instructor](https://learneleventyfromscratch.com/#about-your-instructor)
 
-- Opened issue because could not find the progress snapshots. _Hopefully will be able to create them with this repo._
+- Opened issue because could not find the progress snapshots. Hopefully will be able to create them with this repo.
   - Issue [#37](https://github.com/Andy-set-studio/learneleventyfromscratch.com/issues/37)
 
 ## [Lesson 1](https://learneleventyfromscratch.com/lesson/1.html#what-is-eleventy)
@@ -81,11 +81,11 @@ Deploy:
 
   - You are supposed to see this output in the browser:
 
-        ![lesson 2 goal](https://raw.githubusercontent.com/maiya-22/learning-repo__learn-11ty-from-scratch/Lesson-02/gitHub-Images/lesson-02-goal.jpg)
+    ![lesson 2 goal](https://raw.githubusercontent.com/maiya-22/learning-repo__learn-11ty-from-scratch/Lesson-02/gitHub-Images/lesson-02-goal.jpg)
 
         Instead, you see this:
 
-        ![lesson 2 actual](https://raw.githubusercontent.com/maiya-22/learning-repo__learn-11ty-from-scratch/Lesson-02/gitHub-Images/lesson-02-actual.png)
+    ![lesson 2 actual](https://raw.githubusercontent.com/maiya-22/learning-repo__learn-11ty-from-scratch/Lesson-02/gitHub-Images/lesson-02-actual.png)
 
     </details>
       <details>
@@ -139,4 +139,9 @@ Deploy:
 ## [Lesson 6](https://learneleventyfromscratch.com/lesson/6.html)
 
 - Final code for Lesson 6: [repo branch "lesson-06"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-06)
+
+## [Lesson 7](https://learneleventyfromscratch.com/lesson/7.html)
+
+- Final code for Lesson 7: [repo branch "lesson-07"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-07)
+
 </details>
