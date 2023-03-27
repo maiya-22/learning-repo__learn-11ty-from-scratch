@@ -70,3 +70,10 @@ As the course repo states, this is a retired course, so stumbling blocks and tec
             };
 
         </details>
+
+- Final code for Lesson 3: [repo branch "lesson-03"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-03)
+
+## [Lesson 4](https://learneleventyfromscratch.com/lesson/4.html)
+
+- Note: Image links still broken at end of lesson. (To be fixed in future lesson).
+- Final code for Lesson 4: [repo branch "lesson-04"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-04)
