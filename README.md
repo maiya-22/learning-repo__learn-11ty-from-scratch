@@ -5,7 +5,7 @@
 
 ## Learning Log
 
-- Repo Status: In the middle of Lesson 3
+- Repo Status: End of Lesson 3
 - For Q & A, errors, and questions see the [LOG.md](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/blob/main/LOG.md) file
   - Links to the solution code for each lesson are in the LOG.md file (link above).
 - & look at the [issues](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/issues)
