@@ -1,6 +1,8 @@
 {% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {# Render
 post date and any tags that this post has been filed under #} {% set
-pageHeaderSummary %}
+pageHeaderSummary %} {# Grab other posts that aren’t this one for the 'more from
+the blog' feed #} {% set recommendedPosts =
+helpers.getSiblingContent(collections.blog, page) %}
 <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
 {% if tags %}
 <p class="visually-hidden" id="tags-desc">
@@ -20,6 +22,13 @@ pageHeaderSummary %}
   <div class="[ page-content ] [ flow wrapper ] [ flow-space-700 gap-top-700 ]">
     {{ content | safe }}
   </div>
+
+  {% if recommendedPosts %}
+  <footer class="recommended-posts">
+    {% set postListItems = recommendedPosts %} {% set postListHeadline = 'More
+    from the blog' %} {% include "partials/post-list.html" %}
+  </footer>
+  {% endif %}
 </article>
 
 {% include "partials/cta.html" %} {% endblock %}
