@@ -168,9 +168,9 @@ Deploy:
 
 - Final code for Lesson 13: [repo branch "lesson-13"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-13)
 
-<!--
 ## [Lesson 14](https://learneleventyfromscratch.com/lesson/14.html)
 
+<!--
 - Final code for Lesson 14: [repo branch "lesson-14"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-14)
 
 ## [Lesson 15](https://learneleventyfromscratch.com/lesson/15.html)
