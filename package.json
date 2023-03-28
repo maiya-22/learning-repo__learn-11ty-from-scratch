@@ -19,6 +19,7 @@
   "homepage": "https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch#readme",
   "dependencies": {
     "@11ty/eleventy": "^2.0.0",
-    "@11ty/eleventy-cache-assets": "^2.3.0"
+    "@11ty/eleventy-cache-assets": "^2.3.0",
+    "moment": "^2.29.4"
   }
 }
