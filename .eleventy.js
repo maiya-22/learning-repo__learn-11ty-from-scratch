@@ -4,6 +4,15 @@ const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 module.exports = config => {
     // Set directories to pass through to the dist folder
     config.addPassthroughCopy('./src/images/');
+
+
+
+    // Returns a collection of blog posts in reverse date order
+    config.addCollection('blog', collection => {
+    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+  });
+
+
     // Returns work items, sorted by display order
    // Returns work items, sorted by display order
     config.addCollection('work', collection => {
@@ -16,6 +25,8 @@ module.exports = config => {
       x => x.data.featured
     );
   });
+
+
 
     return {
         markdownTemplateEngine: 'njk',
