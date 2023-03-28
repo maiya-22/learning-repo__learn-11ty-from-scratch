@@ -150,6 +150,30 @@ Deploy:
 
 ## [Lesson 9](https://learneleventyfromscratch.com/lesson/9.html)
 
-- Final code for Lesson 8: [repo branch "lesson-09"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-09)
+- Final code for Lesson 9: [repo branch "lesson-09"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-09)
 
+## [Lesson 10](https://learneleventyfromscratch.com/lesson/10.html)
+
+- Final code for Lesson 10: [repo branch "lesson-10"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-10)
+
+## [Lesson 11](https://learneleventyfromscratch.com/lesson/11.html)
+
+- Final code for Lesson 11: [repo branch "lesson-11"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-11)
+
+<!--
+## [Lesson 12](https://learneleventyfromscratch.com/lesson/12.html)
+
+- Final code for Lesson 12: [repo branch "lesson-12"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-12)
+
+## [Lesson 13](https://learneleventyfromscratch.com/lesson/13.html)
+
+- Final code for Lesson 13: [repo branch "lesson-13"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-13)
+
+## [Lesson 14](https://learneleventyfromscratch.com/lesson/14.html)
+
+- Final code for Lesson 14: [repo branch "lesson-14"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-14)
+
+## [Lesson 15](https://learneleventyfromscratch.com/lesson/15.html)
+
+- Final code for Lesson 15: [repo branch "lesson-15"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-15) -->
 </details>
