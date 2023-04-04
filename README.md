@@ -181,6 +181,7 @@ Deploy:
 - Final code for Lesson 16: [repo branch "lesson-16"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-16)
 
   - ⚠️ ERROR: Code broken at end of lesson. Nothing rendering in body tag.
+  - FIX: was a syntax error.
 
 <!-- - Final code for Lesson 17: [repo branch "lesson-17"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-17)
 
