@@ -1,4 +1,5 @@
-{% extends "layouts/base.html" %} {% block content %}
+{% extends "layouts/base.html" %} {% set peopleItems =
+helpers.filterCollectionByKeys(collections.people, team) %} {% block content %}
 <section class="work-item">
   <header class="hero">
     <div class="[ hero__inner ] [ wrapper ]">
