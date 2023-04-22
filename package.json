@@ -23,6 +23,9 @@
     "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "gulp": "^4.0.2",
-    "moment": "^2.29.4"
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0",
+    "moment": "^2.29.4",
+    "sass": "^1.62.0"
   }
 }
