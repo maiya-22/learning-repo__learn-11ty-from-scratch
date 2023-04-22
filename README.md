@@ -71,33 +71,7 @@ Deploy:
 
 ## [Lesson 2](https://learneleventyfromscratch.com/lesson/1.html#what-is-eleventy)
 
-- ⚠️ ERROR: Cannot GET /
-  <details>
-      <summary>Problem </summary>
-
-  - @ commit [f92fc90ccfb](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/b2659d81bda1677810c7e5cf9e0f8f92fc90ccfb)
-
-  - At the end of the lesson, you run `npx eleventy --serve`
-
-  - You are supposed to see this output in the browser:
-
-    ![lesson 2 goal](https://raw.githubusercontent.com/maiya-22/learning-repo__learn-11ty-from-scratch/Lesson-02/gitHub-Images/lesson-02-goal.jpg)
-
-        Instead, you see this:
-
-    ![lesson 2 actual](https://raw.githubusercontent.com/maiya-22/learning-repo__learn-11ty-from-scratch/Lesson-02/gitHub-Images/lesson-02-actual.png)
-
-    </details>
-      <details>
-        <summary>Solution </summary>
-
-        - The index.md file was in the root directory.
-        - It is supposed to be in the /src directory.
-        - That solved it.
-
-    </details>
-
-  - Final code for Lesson 2: [repo branch "lesson-02"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-02)
+- Final code for Lesson 2: [repo branch "lesson-02"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-02)
 
 ## [Lesson 3](https://learneleventyfromscratch.com/lesson/3.html#what-is-nunjucks)
 
@@ -179,9 +153,6 @@ Deploy:
 ## [Lesson 16](https://learneleventyfromscratch.com/lesson/16.html)
 
 - Final code for Lesson 16: [repo branch "lesson-16"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-16)
-
-  - ⚠️ ERROR: Code broken at end of lesson. Nothing rendering in body tag.
-  - FIX: was a syntax error.
 
 <!-- - Final code for Lesson 17: [repo branch "lesson-17"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-17)
 
