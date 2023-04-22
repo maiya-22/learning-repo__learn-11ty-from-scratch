@@ -1,1 +1,2 @@
-node_modules
+# Is this .gitignore needed after Lesson 19 re-write?
+# node_modules
