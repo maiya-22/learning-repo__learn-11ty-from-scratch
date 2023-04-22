@@ -1,0 +1,28 @@
+Error: Cannot find module 'gulp-clean-css'
+Require stack:
+- /Users/[ file path ]/learn-11ty-from-scratch/gulp-tasks/sass.js
+- /Users/[ file path ]/learn-11ty-from-scratch/gulpfile.js
+- /Users/[ file path ]/learn-11ty-from-scratch/node_modules/gulp-cli/lib/shared/require-or-import.js
+- /Users/[ file path ]/learn-11ty-from-scratch/node_modules/gulp-cli/lib/versioned/^4.0.0/index.js
+- /Users/[ file path ]/learn-11ty-from-scratch/node_modules/gulp-cli/index.js
+- /Users/[ file path ]/learn-11ty-from-scratch/node_modules/gulp/bin/gulp.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/Users/[ file path ]/learn-11ty-from-scratch/gulp-tasks/sass.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/[ file path ]/learn-11ty-from-scratch/gulp-tasks/sass.js',
+    '/Users/[ file path ]/learn-11ty-from-scratch/gulpfile.js',
+    '/Users/[ file path ]/learn-11ty-from-scratch/node_modules/gulp-cli/lib/shared/require-or-import.js',
+    '/Users/[ file path ]/learn-11ty-from-scratch/node_modules/gulp-cli/lib/versioned/^4.0.0/index.js',
+    '/Users/[ file path ]/learn-11ty-from-scratch/node_modules/gulp-cli/index.js',
+    '/Users/[ file path ]/learn-11ty-from-scratch/node_modules/gulp/bin/gulp.js'
+  ]
+}

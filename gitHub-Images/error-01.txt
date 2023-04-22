@@ -1,0 +1,84 @@
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+npm ERR! code 1
+npm ERR! path /Users/[ file path ]learn-11ty-from-scratch/node_modules/node-sass
+npm ERR! command failed
+npm ERR! command sh -c -- node scripts/build.js
+npm ERR! Building: /usr/local/bin/node /Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/bin/node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp verb cli [
+npm ERR! gyp verb cli   '/usr/local/bin/node',
+npm ERR! gyp verb cli   '/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/bin/node-gyp.js',
+npm ERR! gyp verb cli   'rebuild',
+npm ERR! gyp verb cli   '--verbose',
+npm ERR! gyp verb cli   '--libsass_ext=',
+npm ERR! gyp verb cli   '--libsass_cflags=',
+npm ERR! gyp verb cli   '--libsass_ldflags=',
+npm ERR! gyp verb cli   '--libsass_library='
+npm ERR! gyp verb cli ]
+npm ERR! gyp info using node-gyp@3.8.0
+npm ERR! gyp info using node@18.12.1 | darwin | arm64
+npm ERR! gyp verb command rebuild []
+npm ERR! gyp verb command clean []
+npm ERR! gyp verb clean removing "build" directory
+npm ERR! gyp verb command configure []
+npm ERR! gyp verb check python checking for Python executable "python2" in the PATH
+npm ERR! gyp verb `which` failed Error: not found: python2
+npm ERR! gyp verb `which` failed     at getNotFoundError (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:13:12)
+npm ERR! gyp verb `which` failed     at F (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:68:19)
+npm ERR! gyp verb `which` failed     at E (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:80:29)
+npm ERR! gyp verb `which` failed     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:89:16
+npm ERR! gyp verb `which` failed     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/isexe/index.js:42:5
+npm ERR! gyp verb `which` failed     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/isexe/mode.js:8:5
+npm ERR! gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:207:21)
+npm ERR! gyp verb `which` failed  python2 Error: not found: python2
+npm ERR! gyp verb `which` failed     at getNotFoundError (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:13:12)
+npm ERR! gyp verb `which` failed     at F (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:68:19)
+npm ERR! gyp verb `which` failed     at E (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:80:29)
+npm ERR! gyp verb `which` failed     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:89:16
+npm ERR! gyp verb `which` failed     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/isexe/index.js:42:5
+npm ERR! gyp verb `which` failed     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/isexe/mode.js:8:5
+npm ERR! gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:207:21) {
+npm ERR! gyp verb `which` failed   code: 'ENOENT'
+npm ERR! gyp verb `which` failed }
+npm ERR! gyp verb check python checking for Python executable "python" in the PATH
+npm ERR! gyp verb `which` failed Error: not found: python
+npm ERR! gyp verb `which` failed     at getNotFoundError (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:13:12)
+npm ERR! gyp verb `which` failed     at F (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:68:19)
+npm ERR! gyp verb `which` failed     at E (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:80:29)
+npm ERR! gyp verb `which` failed     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:89:16
+npm ERR! gyp verb `which` failed     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/isexe/index.js:42:5
+npm ERR! gyp verb `which` failed     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/isexe/mode.js:8:5
+npm ERR! gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:207:21)
+npm ERR! gyp verb `which` failed  python Error: not found: python
+npm ERR! gyp verb `which` failed     at getNotFoundError (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:13:12)
+npm ERR! gyp verb `which` failed     at F (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:68:19)
+npm ERR! gyp verb `which` failed     at E (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:80:29)
+npm ERR! gyp verb `which` failed     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:89:16
+npm ERR! gyp verb `which` failed     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/isexe/index.js:42:5
+npm ERR! gyp verb `which` failed     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/isexe/mode.js:8:5
+npm ERR! gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:207:21) {
+npm ERR! gyp verb `which` failed   code: 'ENOENT'
+npm ERR! gyp verb `which` failed }
+npm ERR! gyp ERR! configure error 
+npm ERR! gyp ERR! stack Error: Can't find Python executable "python", you can set the PYTHON env variable.
+npm ERR! gyp ERR! stack     at PythonFinder.failNoPython (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/lib/configure.js:484:19)
+npm ERR! gyp ERR! stack     at PythonFinder.<anonymous> (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/lib/configure.js:406:16)
+npm ERR! gyp ERR! stack     at F (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:68:16)
+npm ERR! gyp ERR! stack     at E (/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:80:29)
+npm ERR! gyp ERR! stack     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/node_modules/which/which.js:89:16
+npm ERR! gyp ERR! stack     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/isexe/index.js:42:5
+npm ERR! gyp ERR! stack     at /Users/[ file path ]learn-11ty-from-scratch/node_modules/isexe/mode.js:8:5
+npm ERR! gyp ERR! stack     at FSReqCallback.oncomplete (node:fs:207:21)
+npm ERR! gyp ERR! System Darwin 22.3.0
+npm ERR! gyp ERR! command "/usr/local/bin/node" "/Users/[ file path ]learn-11ty-from-scratch/node_modules/node-gyp/bin/node-gyp.js" "rebuild" "--verbose" "--libsass_ext=" "--libsass_cflags=" "--libsass_ldflags=" "--libsass_library="
+npm ERR! gyp ERR! cwd /Users/[ file path ]learn-11ty-from-scratch/node_modules/node-sass
+npm ERR! gyp ERR! node -v v18.12.1
+npm ERR! gyp ERR! node-gyp -v v3.8.0
+npm ERR! gyp ERR! not ok 
+npm ERR! Build failed with error code: 1
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/[username]/.npm/_logs/2023-04-22T13_10_55_219Z-debug-0.log
