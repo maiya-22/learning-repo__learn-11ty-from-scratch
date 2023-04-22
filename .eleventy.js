@@ -4,6 +4,9 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
+const sass = require("sass");
+const browserslist = require("browserslist");
+const { transform, browserslistToTargets } = require("lightningcss");
 
 module.exports = config => {
     // Set directories to pass through to the dist folder
@@ -47,6 +50,44 @@ module.exports = config => {
   //  [ ] Do we still need this with the re-write of Lesson 19?
    // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
     // config.setUseGitIgnore(false);
+
+
+    // Compile Sass
+    config.addExtension("scss", {
+
+
+      outputFileExtension: "css",
+      compile: async function (inputContent, inputPath) {
+
+        // Skip files like _fileName.scss
+        let parsed = path.parse(inputPath);
+        if (parsed.name.startsWith("_")) {
+          return;
+        }
+      
+        // Run file content through Sass
+        let result = sass.compileString(inputContent, {
+          loadPaths: [parsed.dir || "."],
+          sourceMap: false, // or true, your choice!
+        });
+      
+        // Allow included files from @use or @import to
+        // trigger rebuilds when using --incremental
+        this.addDependencies(inputPath, result.loadedUrls);
+      
+        let targets = browserslistToTargets(browserslist("> 0.2% and not dead"));
+
+        return async  () => {
+          let { code } = await transform({
+            code: Buffer.from(result.css),
+            minify: true,
+            sourceMap: false,
+            targets,
+          });
+          return code;
+        };
+      },
+    });
 
     return {
         markdownTemplateEngine: 'njk',
