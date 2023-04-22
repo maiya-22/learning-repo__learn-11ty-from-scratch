@@ -47,10 +47,6 @@ Deploy:
 
 ## Lesson Code & Progress Log
 
-<details>
-
-<summary>expand ...</summary>
-
 - As the course repo states, this is a retired course, so stumbling blocks and technical issues are to be expected.
 
 - This repo (that you are reading) is the "eleventy-from-scratch" repo that the instructions will tell you to create. This md file and the /gitHub-Images directory are the only things that are different.
@@ -150,14 +146,15 @@ Deploy:
 
 - Final code for Lesson 15: [repo branch "lesson-15"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-15)
 
-## [Lesson 16](https://learneleventyfromscratch.com/lesson/16.html)
+## Additional Lessons
 
 - Final code for Lesson 16: [repo branch "lesson-16"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-16)
 
-Final code for Lesson 17: [repo branch "lesson-17"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-17)
+- Final code for Lesson 17: [repo branch "lesson-17"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-17)
 
 - Final code for Lesson 18: [repo branch "lesson-18"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-18)
 
 - Final code for Lesson 19: [repo branch "lesson-19"](https://github.com/maiya-22/learning-repo__learn-11ty-from-scratch/tree/Lesson-19)
 
-</details>
+  - Lesson 19 has outdated Gulp methods (per advice from other devs)
+    - per suggestions, attempting to apply this tutorial, in order to implement SaSS [11ty Rocks: Process CSS with LightningCSS](https://11ty.rocks/posts/process-css-with-lightningcss/)
