@@ -1,11 +1,16 @@
 
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
+const sass = require("sass");
+
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 
+
 module.exports = config => {
+
+
     // Set directories to pass through to the dist folder
     config.addPassthroughCopy('./src/images/');
 
@@ -47,6 +52,37 @@ module.exports = config => {
   //  [ ] Do we still need this with the re-write of Lesson 19?
    // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
     // config.setUseGitIgnore(false);
+
+
+    // SaSS
+    // Recognize Sass as a "template languages"
+    config.addTemplateFormats("scss");
+
+    // Compile Sass
+    config.addExtension("scss", {
+    outputFileExtension: "css",
+    compile: async function (inputContent, inputPath) {
+    // Skip files like _fileName.scss
+    let parsed = path.parse(inputPath);
+    if (parsed.name.startsWith("_")) {
+      return;
+    }
+
+    // Run file content through Sass
+    let result = sass.compileString(inputContent, {
+      loadPaths: [parsed.dir || "."],
+      sourceMap: false, // or true, your choice!
+    });
+
+    // Allow included files from @use or @import to
+    // trigger rebuilds when using --incremental
+    this.addDependencies(inputPath, result.loadedUrls);
+
+    return async () => {
+      return result.css;
+    };
+  },
+});
 
     return {
         markdownTemplateEngine: 'njk',
