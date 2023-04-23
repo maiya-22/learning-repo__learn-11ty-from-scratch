@@ -158,3 +158,5 @@ Deploy:
 
   - Lesson 19 has outdated Gulp methods (per advice from other devs)
     - per suggestions, attempting to apply this tutorial, in order to implement SaSS [11ty Rocks: Process CSS with LightningCSS](https://11ty.rocks/posts/process-css-with-lightningcss/)
+
+- Note: attempting to bring rewrite into future commit.
