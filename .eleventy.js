@@ -50,8 +50,8 @@ module.exports = config => {
 
 
   //  [ ] Do we still need this with the re-write of Lesson 19?
-   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
-    // config.setUseGitIgnore(false);
+  //  Tell 11ty to use the .eleventyignore and ignore our .gitignore file
+    config.setUseGitIgnore(false);
 
 
     // SaSS
