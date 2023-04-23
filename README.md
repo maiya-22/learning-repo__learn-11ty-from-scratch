@@ -159,4 +159,20 @@ Deploy:
   - Lesson 19 has outdated Gulp methods (per advice from other devs)
     - per suggestions, attempting to apply this tutorial, in order to implement SaSS [11ty Rocks: Process CSS with LightningCSS](https://11ty.rocks/posts/process-css-with-lightningcss/)
 
-- Note: attempting to bring rewrite into future commit.
+- Git Note: attempting to bring rewrite into future commit.
+
+  - merged branch with stripped out branch. Think it worked to remove css code?
+
+  - git note:
+    `@MacBook-Air learn-11ty-from-scratch % git merge lesson-19-rewrite-origin
+Updating 47d296a..702bc3d
+Fast-forward
+ .eleventy.js           |  4 +++-
+ .eleventyignore        |  3 ++-
+ README.md              | 13 ++++++-------
+ gulp-tasks/sass.js     | 52 ----------------------------------------------------
+ gulpfile.js            | 21 ++++-----------------
+ package.json           |  4 +---
+ src/scss/_reset.scss   | 77 -----------------------------------------------------------------------------
+ src/scss/critical.scss |  1 -
+`
